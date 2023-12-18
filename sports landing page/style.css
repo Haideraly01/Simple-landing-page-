@@ -1,0 +1,107 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Amaranth&family=Jost&family=Outfit:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Amaranth', sans-serif;
+font-family: 'Jost', sans-serif;
+font-family: 'Outfit', sans-serif;
+}
+
+.container{
+    display: flex;
+    margin: 10px 30px;
+}
+.container h2{
+    margin: 30px 30px;
+    font-size: 40px;
+}
+.container ul{
+    display: flex;
+    width: 650px;
+    font-size: 20px;
+    margin: 52px 24px;
+    justify-content: space-evenly;
+    height: 30px;
+}
+.container ul li{
+    list-style: none;
+    display: flex;
+}
+.container ul li a{
+    text-decoration: none;
+}
+.container ul li:hover{
+    border-bottom: 5px solid orange;
+    transition: .2s;
+    border-radius: 2px;
+}
+
+.cart{
+    /* margin: 0px 30px */
+    width: 150px;
+    margin: 36px 5px;
+    margin-left: 125px;
+    padding: 0px 33px;
+    font-size: 18px;
+    border-radius: 6px;
+    border: 1px solid silver;
+    font-weight: bold;
+}
+
+.cart:hover{
+    background-color: orangered;
+    color: white;
+    opacity: none;
+    transition: .5s;
+    border: none;
+}
+
+.contant{
+    display: flex;
+}
+.left-contant{
+    flex-basis: 45%;
+    margin: 10px 90px;
+}
+.left-contant h3{
+    font-size: 33px;
+    margin: 0px 0px 15px 0px;
+    color: #309bed;
+}
+.left-contant h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.btn{
+    margin-top: 20px;
+    margin-left: 35px;
+    width: 150px;
+    height: 50px;
+    border-radius: 3px;
+    font-size: 17px;
+    border: 1px solid silver;
+    font-weight: bold;
+}
+.btn:hover{
+    background-color: orangered;
+    color: white;
+    opacity: none;
+    transition: .5s;
+    border: none;
+}
+
+
+
+.right-contant{
+    flex-basis: 55%;
+}
+
+.right-contant img{
+    width: 85%;
+}
